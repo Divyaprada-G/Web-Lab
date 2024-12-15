@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML5 SVG and MathML</title>
+    <style>
+        body {
+            background-color: lightgray;
+            color: darkblue;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        svg {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="background-color: lightyellow; color: darkgreen;">
+        <h2>1. Square</h2>
+        <svg width="100" height="100">
+            <rect x="10" y="10" width="80" height="80" fill="green" stroke="brown" stroke-width="6"/>
+        </svg>
+    </div>
+
+    <div class="container" style="background-color: lightblue; color: darkred;">
+        <h2>2. Rectangle</h2>
+        <svg width="150" height="100">
+            <rect x="10" y="10" width="130" height="80" fill="blue" stroke="red" stroke-width="8"/>
+        </svg>
+    </div>
+
+    <div class="container" style="background-color: lightcoral; color: darkorange;">
+        <h2>3. Ellipse</h2>
+        <svg width="200" height="100">
+            <ellipse cx="100" cy="50" rx="80" ry="40" fill="orange" stroke="blue" stroke-width="3"/>
+        </svg>
+    </div>
+
+    <div class="container" style="background-color: lightgoldenrodyellow; color: darkgreen;">
+        <h2>4. Circle</h2>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" fill="yellow" stroke="green" stroke-width="4"/>
+        </svg>
+    </div>
+
+    <div class="container" style="background-color: lightgray; color: black;">
+        <h2>5. Pentagon</h2>
+        <svg width="150" height="150">
+            <polygon points="75,10 110,50 95,110 55,110 40,50" fill="black" stroke="green" stroke-width="4"/>
+        </svg>
+    </div>
+
+    <div class="container" style="background-color: lavender; color: darkblue;">
+        <h2>6. Mathematical Expressions</h2>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>d</mi>
+            <mo>=</mo>
+            <msup>
+                <mi>x</mi>
+                <mn>2</mn>
+            </msup>
+            <mo>-</mo>
+            <msup>
+                <mi>y</mi>
+                <mn>2</mn>
+            </msup>
+        </math>
+        <br/>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi>ax</mi><msup><mi>x</mi><mn>2</mn></msup>
+            <mo>+</mo>
+            <mi>bx</mi>
+            <mo>+</mo>
+            <mi>c</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+        </math>
+    </div>
+</body>
+</html>

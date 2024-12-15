@@ -1,0 +1,26 @@
+body{
+    background: url("https://img.collegepravesh.com/2018/10/SIT-Tumkur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: rgb(247, 4, 4);
+    font-size: 50px;
+    margin-top: 30px;
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+}
+nav li{
+    display: inline-block;
+    text-indent: 50px;
+    background: url("https://st.depositphotos.com/1605581/3728/i/450/depositphotos_37286313-stock-photo-abstract-medical-background.jpg");
+    font-size: 28px;
+    color: rgb(245, 8, 119);
+    text-align: center;
+    margin-left:  10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
